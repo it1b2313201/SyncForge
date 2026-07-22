@@ -1,0 +1,14 @@
+{
+  "name": "syncforge",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace=syncforge-kanban-frontend"
+  },
+  "dependencies": {
+    "@vercel/blob": "^2.1.0"
+  }
+}
